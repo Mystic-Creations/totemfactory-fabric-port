@@ -10,7 +10,7 @@
       "translate": "advancement.totemfactory.inactive_totem_full_inventory.descr",
       "color": "#d1a75d"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "totemfactory:first_totem",
