@@ -14,7 +14,8 @@
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/create-totem-factory",
-    "sources": "https://github.com/Mystic-Creations/Totem-Factory"
+    "sources": "https://github.com/Mystic-Creations/Totem-Factory",
+    "issues": "https://github.com/Mystic-Creations/Totem-Factory/issues"
   },
   "license": "MIT",
   "icon": "icon.png",

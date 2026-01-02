@@ -1,31 +1,43 @@
-modLoader = "javafml"
-loaderVersion = "[4,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+modLoader="javafml"
+loaderVersion="[4,)"
+issueTrackerURL="https://github.com/Mystic-Creations/Totem-Factory/issues"
+license="MIT"
 
 [[mods]]
-modId = "totemfactory"
-version = "${version}"
-displayName = "Create: Totem Factory"
-authors = "Me!"
-description = '''
-This is an example description! Tell everyone what your mod is about!
+modId="totemfactory"
+version="${version}"
+logoFile="icon.png"
+displayName="Create: Totem Factory"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/create-totem-factory"
+authors='''
+
+MarcosJoestar
+jargames99
+Mystic Creations Team (Collaborators)
+BluSpring (Contributor)
 '''
-#logoFile = ""
+description="The industrial revolution has come to Minecraft, and with it, new knowledge and discoveries both in the field of science and magic."
 
 [[dependencies.totemfactory]]
-modId = "neoforge"
-type = "required"
-versionRange = "[21.1,)"
-ordering = "NONE"
-side = "BOTH"
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
 
 [[dependencies.totemfactory]]
-modId = "minecraft"
-type = "required"
-versionRange = "[1.21.1,)"
-ordering = "NONE"
-side = "BOTH"
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.totemfactory]]
+modId="create"
+type="required"
+versionRange="[6,)"
+ordering="NONE"
+side="BOTH"
 
 [[mixins]]
-config = "totemfactory.mixins.json"
+config="totemfactory.mixins.json"
