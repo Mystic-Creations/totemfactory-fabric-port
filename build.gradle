@@ -49,20 +49,20 @@ subprojects {
     }
 
     java {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
 
     tasks.withType(JavaCompile).configureEach {
-        it.options.release = 17
+        it.options.release = 21
     }
 
     def detectedPlatform
     def name = project.name.toLowerCase()
     if (name.contains('fabric')) {
         detectedPlatform = 'Fabric'
-    } else if (name.contains('forge')) {
-        detectedPlatform = 'Forge'
+    } else if (name.contains('neoforge')) {
+        detectedPlatform = 'NeoForge'
     } else {
         detectedPlatform = 'Unknown'
     }
