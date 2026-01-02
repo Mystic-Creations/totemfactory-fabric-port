@@ -3,7 +3,7 @@ package marcos.mysticcreationsteam.totemfactory.createResources;
 import com.simibubi.create.foundation.blockEntity.SmartBlockEntity;
 import com.simibubi.create.foundation.blockEntity.behaviour.BehaviourType;
 import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour;
-import net.fabricmc.fabric.api.entity.FakePlayer;
+import marcos.mysticcreationsteam.totemfactory.ModLoaderHelper;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.core.BlockPos;
@@ -155,7 +155,7 @@ public class AdvancementBehavior extends BlockEntityBehaviour {
         if (behaviour == null)
             return;
 
-        if (placer instanceof ServerPlayer player && !(player instanceof FakePlayer)) {
+        if (placer instanceof ServerPlayer player && !ModLoaderHelper.isFakePlayer(player)) {
             behaviour.setPlayer(player.getUUID());
         }
     }

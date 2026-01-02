@@ -4,9 +4,9 @@ Sentient Fireplace (CREATE)
     │
     ├── Ancient Age [Task] ✅
     │
-    ├── Engineering Laughs in the Face of Death [Task]
+    ├── Engineering Laughs in the Face of Death [Task] ✅
     │   │
-    │   ├── Totem Factory [Challenge]
+    │   ├── Totem Factory [Challenge] ✅
     │   │
     │   └── A Step Away From Immortality [Goal] ✅
     │       │
