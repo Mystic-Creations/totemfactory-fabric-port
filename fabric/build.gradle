@@ -30,12 +30,12 @@ dependencies {
     //modCompileOnly "com.simibubi.create:create-fabric:$rootProject.create_fabric"
     //   DEV NOTE: have Create Fabric in your mods folder instead - Arch Loom isn't remapping correctly
     modCompileOnly "com.simibubi.create:create-fucked-up-1.21.1:$rootProject.create_fabric"
-    modImplementation "net.createmod.ponder:Ponder-Fabric-1.20.1:$rootProject.ponder"
-    modImplementation "dev.engine-room.flywheel:flywheel-fabric-1.20.1:$rootProject.flywheel"
+    modImplementation "net.createmod.ponder:Ponder-Fabric-1.21.1:$rootProject.ponder"
+    modImplementation "dev.engine-room.flywheel:flywheel-fabric-1.21.1:$rootProject.flywheel"
 
     //Mods for testing
     modRuntimeOnly "com.terraformersmc:modmenu:${rootProject.modmenu_version}"
-    modRuntimeOnly "mezz.jei:jei-1.20.1-fabric:${rootProject.jei_version}"
+    modRuntimeOnly "mezz.jei:jei-1.21.1-fabric:${rootProject.jei_version}"
 
     //Architectury
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
