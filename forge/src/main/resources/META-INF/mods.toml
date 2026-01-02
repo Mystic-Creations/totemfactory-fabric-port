@@ -1,5 +1,6 @@
 modLoader="javafml"
 loaderVersion="[47,)"
+issueTrackerURL="https://github.com/Mystic-Creations/Totem-Factory/issues"
 license="MIT"
 
 [[mods]]
