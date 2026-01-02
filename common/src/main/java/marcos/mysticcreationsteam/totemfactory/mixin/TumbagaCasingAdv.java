@@ -1,6 +1,7 @@
 package marcos.mysticcreationsteam.totemfactory.mixin;
 
 import com.simibubi.create.content.kinetics.deployer.ManualApplicationRecipe;
+import marcos.mysticcreationsteam.totemfactory.init.TfAdvancements;
 import marcos.mysticcreationsteam.totemfactory.init.TfBlocks;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.resources.ResourceLocation;
@@ -20,7 +21,7 @@ public class TumbagaCasingAdv {
 
         if (TfBlocks.TUMBAGA_CASING.has(placed)) {
             Advancement adv = serverPlayer.server.getAdvancements()
-                .getAdvancement(new ResourceLocation("totemfactory", "tumbaga_casing"));
+                .getAdvancement(TfAdvancements.TUMBAGA_CASING);
 
             if (adv != null) {
                 serverPlayer.getAdvancements().award(adv, "crafted");

@@ -1,1 +1,21 @@
-{}
+{
+  "parent": "totemfactory:tumbaga_alloy",
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "create:experience_nugget"
+    },
+    "title": {
+      "translate": "advancement.totemfactory.first_totem.title"
+    },
+    "description": {
+      "translate": "advancement.totemfactory.first_totem.descr",
+      "color": "#d1a75d"
+    },
+    "frame": "goal"
+  }
+}

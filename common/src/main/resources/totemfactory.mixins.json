@@ -6,7 +6,9 @@
   "client": [
   ],
   "mixins": [
-    "MixinPiglinAiLikesTumbaga",
+    "TumbagaPiglinLikeable",
+    "ThousandTotemsAdvDeployer",
+    "ThousandTotemsAdvSpout",
     "TumbagaCasingAdv"
   ],
   "injectors": {
