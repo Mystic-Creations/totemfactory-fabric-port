@@ -4,12 +4,13 @@ architectury {
 
 dependencies {
     // Note: Be careful to not use any Fabric-only code from here!
-    modImplementation("com.tterrag.registrate_fabric:Registrate:$rootProject.registrate_refabricated") {
+    modImplementation("com.tterrag.registrate_fabric:Registrate-Fabric:$rootProject.registrate_refabricated") {
         exclude group: "net.fabricmc.fabric-api"
     }
-    modImplementation("com.simibubi.create:create-fabric:$rootProject.create_fabric") {
-        exclude group: "net.fabricmc.fabric-api"
-    }
+    //modImplementation("com.simibubi.create:create-fabric:$rootProject.create_fabric") {
+    modImplementation("com.simibubi.create:create-fucked-up-1.21.1:$rootProject.create_fabric") //{
+    //    exclude group: "net.fabricmc.fabric-api"
+    //}
 
     // We depend on Fabric Loader here to use the Fabric @Environment annotations,
     // which get remapped to the correct annotations on each platform.
