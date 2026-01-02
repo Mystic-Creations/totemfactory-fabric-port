@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "totemfactory",
-  "version": "${version}",
+  "version": "${mod_version}",
   "name": "Create: Totem Factory",
   "description": "The industrial revolution has come to Minecraft, and with it, new knowledge and discoveries both in the field of science and magic.",
   "authors": [

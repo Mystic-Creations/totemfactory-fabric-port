@@ -1,5 +1,5 @@
 plugins {
-    id 'dev.architectury.loom' version '1.11-SNAPSHOT' apply false
+    id 'dev.architectury.loom' version '1.13-SNAPSHOT' apply false
     id 'architectury-plugin' version '3.4-SNAPSHOT'
     id 'com.gradleup.shadow' version '8.3.6' apply false
 }
@@ -10,7 +10,9 @@ architectury {
 
 allprojects {
     group = rootProject.maven_group
-    version = rootProject.mod_version
+    version = rootProject.mod_version //for file building
+    mod_version = rootProject.mod_version
+    minecraft_version = rootProject.minecraft_version
     create_fabric = rootProject.create_fabric
     create_forge = rootProject.create_forge
 
@@ -32,10 +34,7 @@ subprojects {
     apply plugin: 'architectury-plugin'
     apply plugin: 'maven-publish'
 
-    base {
-        // Set up a suffixed format for the mod jar names, e.g. `example-fabric`.
-        archivesName = "TotemFactory-${version}_$project.name-$minecraft_version"
-    }
+    base { archivesName = rootProject.archives_name }
 
     repositories {
     }
@@ -56,5 +55,33 @@ subprojects {
 
     tasks.withType(JavaCompile).configureEach {
         it.options.release = 17
+    }
+
+    def detectedPlatform
+    def name = project.name.toLowerCase()
+    if (name.contains('fabric')) {
+        detectedPlatform = 'Fabric'
+    } else if (name.contains('forge')) {
+        detectedPlatform = 'Forge'
+    } else {
+        detectedPlatform = 'Unknown'
+    }
+
+    if (detectedPlatform) {
+        project.version = "${rootProject.mod_version}+mc${rootProject.minecraft_version}-${detectedPlatform}"
+    } else {
+        project.version = rootProject.mod_version
+    }
+
+    tasks.withType(Jar).configureEach { Jar jarTask ->
+        jarTask.archiveBaseName.set(rootProject.archives_name)
+        jarTask.archiveVersion.set(project.version.toString())
+    }
+
+    tasks.matching { it.name == 'shadowJar' }.configureEach { task ->
+        if (task.hasProperty('archiveBaseName')) {
+            task.archiveBaseName.set(rootProject.archives_name)
+            task.archiveVersion.set(project.version.toString())
+        }
     }
 }
