@@ -1,7 +1,6 @@
 package marcos.mysticcreationsteam.totemfactory.mixin;
 
 import com.llamalad7.mixinextras.sugar.Local;
-import com.simibubi.create.content.kinetics.belt.behaviour.BeltProcessingBehaviour;
 import com.simibubi.create.content.kinetics.belt.behaviour.TransportedItemStackHandlerBehaviour;
 import com.simibubi.create.content.kinetics.belt.transport.TransportedItemStack;
 import com.simibubi.create.content.kinetics.deployer.BeltDeployerCallbacks;
@@ -16,10 +15,9 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(BeltDeployerCallbacks.class)
-public class ThousandTotemsAdvDeployer {
+public class TotemsAdvsDeployer {
 
     @Inject(method = "activate", at = @At("TAIL"), remap = false)
     private static void countTotems(

@@ -9,8 +9,8 @@
         "AdvBehaviourDeployer",
         "AdvBehaviourSpout",
         "DeployerInjectionMixin",
-        "ThousandTotemsAdvDeployer",
-        "ThousandTotemsAdvSpout",
+      "TotemsAdvsDeployer",
+      "TotemsAdvsSpout",
         "TumbagaCasingAdv",
         "TumbagaPiglinLikeable"
     ],

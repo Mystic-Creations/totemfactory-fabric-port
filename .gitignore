@@ -27,6 +27,7 @@ common/run/
 common/build/
 common/.gradle/
 fabric/run/
+!fabric/run/mods/
 fabric/build/
 fabric/.gradle/
 forge/run/

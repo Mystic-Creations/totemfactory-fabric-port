@@ -20,7 +20,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import java.util.List;
 
 @Mixin(SpoutBlockEntity.class)
-public abstract class ThousandTotemsAdvSpout {
+public abstract class TotemsAdvsSpout {
     @Inject(method = "addBehaviours", at = @At("TAIL"), remap = false)
     private void addCustomAdvancementBehaviours(List<BlockEntityBehaviour> behaviours, CallbackInfo ci) {
         CreateAdvancementHelper.registerAwardables(

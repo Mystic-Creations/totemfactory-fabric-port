@@ -16,6 +16,6 @@
       "translate": "advancement.totemfactory.first_totem.descr",
       "color": "#d1a75d"
     },
-    "frame": "goal"
+    "frame": "task"
   }
 }
