@@ -33,6 +33,3 @@ fabric/.gradle/
 forge/run/
 forge/build/
 forge/.gradle/
-neoforge/run/
-neoforge/build/
-neoforge/.gradle/
