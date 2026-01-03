@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ghast_tear"
+    }
+  ]
+}

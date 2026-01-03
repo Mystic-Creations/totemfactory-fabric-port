@@ -30,9 +30,6 @@ fabric/run/
 !fabric/run/mods/
 fabric/build/
 fabric/.gradle/
-forge/run/
-forge/build/
-forge/.gradle/
 neoforge/run/
 neoforge/build/
 neoforge/.gradle/
