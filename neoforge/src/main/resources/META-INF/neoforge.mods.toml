@@ -5,7 +5,7 @@ license="MIT"
 
 [[mods]]
 modId="totemfactory"
-version="${version}"
+version="${mod_version}"
 logoFile="icon.png"
 displayName="Create: Totem Factory"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/create-totem-factory"
