@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 import static marcos.mysticcreationsteam.totemfactory.TotemFactory.REGISTRATE;
 
 public class TfBlocks {
-    public static Supplier<Block> TUMBAGA_BLOCK = register("tumbaga_block", () -> new TumbagaBlock());
+    public static Supplier<Block> TUMBAGA_BLOCK = register("tumbaga_block", TumbagaBlock::new);
     public static final BlockEntry<CasingBlock> TUMBAGA_CASING = REGISTRATE.block("tumbaga_casing", CasingBlock::new)
         .properties(p -> p.mapColor(MapColor.TERRACOTTA_BROWN))
         .transform(BuilderTransformers.casing(() -> TfSpriteShifts.TUMBAGA_CASING))

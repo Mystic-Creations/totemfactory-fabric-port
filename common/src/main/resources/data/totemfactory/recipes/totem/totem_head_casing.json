@@ -6,7 +6,7 @@
     "loops": 1,
     "results": [
       {
-        "item": "totemfactory:totem_head_casing"
+        "id": "totemfactory:totem_head_casing"
       }
     ],
     "sequence": [
@@ -20,7 +20,7 @@
         "processingTime": 50,
         "results": [
           {
-            "item": "totemfactory:incomplete_totem_head_casing"
+            "id": "totemfactory:incomplete_totem_head_casing"
           }
         ]
       },
@@ -33,12 +33,12 @@
         ],
         "results": [
           {
-            "item": "totemfactory:incomplete_totem_head_casing"
+            "id": "totemfactory:incomplete_totem_head_casing"
           }
         ]
       }
     ],
-    "transitionalItem": {
-      "item": "totemfactory:incomplete_totem_head_casing"
+    "transitional_item": {
+      "id": "totemfactory:incomplete_totem_head_casing"
     }
   }

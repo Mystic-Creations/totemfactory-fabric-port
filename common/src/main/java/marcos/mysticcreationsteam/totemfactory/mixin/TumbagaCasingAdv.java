@@ -4,6 +4,7 @@ import com.simibubi.create.content.kinetics.deployer.ManualApplicationRecipe;
 import marcos.mysticcreationsteam.totemfactory.init.TfAdvancements;
 import marcos.mysticcreationsteam.totemfactory.init.TfBlocks;
 import net.minecraft.advancements.Advancement;
+import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
@@ -20,8 +21,8 @@ public class TumbagaCasingAdv {
         if (!(player instanceof ServerPlayer serverPlayer)) return;
 
         if (TfBlocks.TUMBAGA_CASING.has(placed)) {
-            Advancement adv = serverPlayer.server.getAdvancements()
-                .getAdvancement(TfAdvancements.TUMBAGA_CASING);
+            AdvancementHolder adv = serverPlayer.server.getAdvancements()
+                .get(TfAdvancements.TUMBAGA_CASING);
 
             if (adv != null) {
                 serverPlayer.getAdvancements().award(adv, "crafted");

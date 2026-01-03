@@ -5,6 +5,7 @@ import com.simibubi.create.foundation.blockEntity.behaviour.BehaviourType;
 import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour;
 import marcos.mysticcreationsteam.totemfactory.ModLoaderHelper;
 import net.minecraft.advancements.Advancement;
+import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
@@ -81,8 +82,8 @@ public class AdvancementBehavior extends BlockEntityBehaviour {
         if (!advancements.contains(advancement))
             return;
 
-        Advancement holder =
-            player.server.getAdvancements().getAdvancement(advancement);
+        AdvancementHolder holder =
+            player.server.getAdvancements().get(advancement);
 
         if (holder == null)
             return;
@@ -98,8 +99,8 @@ public class AdvancementBehavior extends BlockEntityBehaviour {
         removeAwarded();
     }
     private boolean isAwardedTo(ResourceLocation advancement, ServerPlayer player) {
-        Advancement holder =
-            player.server.getAdvancements().getAdvancement(advancement);
+        AdvancementHolder holder =
+            player.server.getAdvancements().get(advancement);
 
         if (holder == null)
             return true;

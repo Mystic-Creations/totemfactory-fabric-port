@@ -6,7 +6,7 @@
   "loops": 5,
   "results": [
     {
-      "item": "minecraft:totem_of_undying"
+      "id": "minecraft:totem_of_undying"
     }
   ],
   "sequence": [
@@ -22,12 +22,12 @@
       ],
       "results": [
         {
-          "item": "totemfactory:inactive_totem"
+          "id": "totemfactory:inactive_totem"
         }
       ]
     }
   ],
-  "transitionalItem": {
-    "item": "totemfactory:incomplete_totem_of_undying"
+  "transitional_item": {
+    "id": "totemfactory:incomplete_totem_of_undying"
   }
 }

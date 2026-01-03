@@ -6,6 +6,7 @@ import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour
 import marcos.mysticcreationsteam.totemfactory.createResources.CreateAdvancementHelper;
 import marcos.mysticcreationsteam.totemfactory.createResources.TotemFactoryDeployerExtension;
 import marcos.mysticcreationsteam.totemfactory.init.TfAdvancements;
+import net.minecraft.core.HolderLookup;
 import net.minecraft.nbt.CompoundTag;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
@@ -40,14 +41,14 @@ public abstract class DeployerInjectionMixin implements TotemFactoryDeployerExte
     }
 
     @Inject(method = "read", at = @At(value = "INVOKE", target = "Lcom/simibubi/create/content/kinetics/base/KineticBlockEntity;read(Lnet/minecraft/nbt/CompoundTag;Z)V"))
-    private void loadCreatedTotems(CompoundTag compound, boolean clientPacket, CallbackInfo ci) {
+    private void loadCreatedTotems(CompoundTag compound, HolderLookup.Provider registries, boolean clientPacket, CallbackInfo ci) {
         if (compound.contains("totemfactory:totems_created")) {
             totemfactory$totemsCreated = compound.getInt("totemfactory:totems_created");
         }
     }
 
     @Inject(method = "write", at = @At(value = "INVOKE", target = "Lcom/simibubi/create/content/kinetics/base/KineticBlockEntity;write(Lnet/minecraft/nbt/CompoundTag;Z)V"))
-    private void saveCreatedTotems(CompoundTag compound, boolean clientPacket, CallbackInfo ci) {
+    private void saveCreatedTotems(CompoundTag compound, HolderLookup.Provider registries, boolean clientPacket, CallbackInfo ci) {
         compound.putInt("totemfactory:totems_created", totemfactory$totemsCreated);
     }
 }

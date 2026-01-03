@@ -17,7 +17,7 @@ public class TumbagaPiglinLikeable {
     private static void onIsWearingGold(LivingEntity livingEntity, CallbackInfoReturnable<Boolean> cir) {
         for(ItemStack itemStack : livingEntity.getArmorSlots()) {
             Item item = itemStack.getItem();
-            if (item instanceof ArmorItem && ((ArmorItem)item).getMaterial().getName().equals(TotemFactory.MODID + ":tumbaga")) {
+            if (item instanceof ArmorItem && ((ArmorItem)item).getMaterial().getRegisteredName().equals(TotemFactory.MODID + ":tumbaga")) {
                 cir.setReturnValue(true);
             }
         }
