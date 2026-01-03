@@ -8,6 +8,7 @@ dependencies {
         exclude group: "net.fabricmc.fabric-api"
     }
     //modImplementation("com.simibubi.create:create-fabric:$rootProject.create_fabric") {
+    modImplementation("net.createmod.ponder:Ponder-Common-1.21.1:$rootProject.ponder")
     modImplementation("com.simibubi.create:create-fucked-up-1.21.1:$rootProject.create_fabric")  {
         exclude(group: "com.tterrag.registrate_fabric")
         // stop trying to import the local one that shouldn't even be used
