@@ -27,6 +27,8 @@ allprojects {
         maven { url = "https://maven.terraformersmc.com/releases/" }
         maven { url = "https://maven.blamejared.com/" }
         maven { url = "https://maven.ladysnake.org/releases" }
+        maven { url = "https://maven.squiddev.cc" }
+        maven { url = "https://maven.theillusivec4.top/" }
         maven {
             url = "https://jm.gserv.me/repository/maven-public"
             content {
@@ -36,6 +38,7 @@ allprojects {
         }
         maven { url = "https://maven.nova-committee.cn/releases" }
         maven { url = "https://maven.ftb.dev/releases" }
+        maven { url = "https://api.modrinth.com/maven" }
     }
 }
 

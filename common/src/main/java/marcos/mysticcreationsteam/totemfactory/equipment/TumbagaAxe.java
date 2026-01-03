@@ -11,36 +11,8 @@ import net.minecraft.world.level.block.Block;
 
 public class TumbagaAxe extends AxeItem {
     public TumbagaAxe() {
-        super(new Tier() {
-            @Override
-            public int getUses() { //USES
-                return 220;
-            }
-
-            @Override
-            public float getSpeed() { //MINING SPEED
-                return 12.0f;
-            }
-
-            @Override
-            public float getAttackDamageBonus() { //BASE DAMAGE
-                return 9;
-            }
-
-            @Override
-            public TagKey<Block> getIncorrectBlocksForDrops() {
-                return BlockTags.INCORRECT_FOR_IRON_TOOL;
-            }
-
-            @Override
-            public int getEnchantmentValue() { //ENCHANTMENT VALUE
-                return 14;
-            }
-
-            @Override
-            public Ingredient getRepairIngredient() {
-                return Ingredient.of(TfItems.TUMBAGA_ALLOY.get());
-            }
-        }, new Properties().stacksTo(1).rarity(Rarity.COMMON));
+        super(TumbagaTier.AXE, new Properties().stacksTo(1).rarity(Rarity.COMMON).attributes(createAttributes(TumbagaTier.AXE, -1.0f, -3.1f)));
+        //f - Attack Damage Modifier (final_dmg = base_damage + f), sometimes it's weird and you need to make it -1
+        //g - Attack Speed Modifier (final_speed = g + 4.0)
     }
 }

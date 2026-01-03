@@ -1,10 +1,11 @@
 package marcos.mysticcreationsteam.totemfactory.equipment;
 
+import marcos.mysticcreationsteam.totemfactory.init.TfArmorMaterials;
 import net.minecraft.world.item.ArmorItem;
 
 public class TumbagaChestplate extends ArmorItem {
     public TumbagaChestplate() {
-        super(TumbagaArmorMaterial.INSTANCE, Type.CHESTPLATE, new Properties().stacksTo(1));
+        super(TfArmorMaterials.TUMBAGA, Type.CHESTPLATE, new Properties().stacksTo(1).durability(Type.CHESTPLATE.getDurability(TfArmorMaterials.TUMBAGA_DURABILITY)));
     }
 }
 

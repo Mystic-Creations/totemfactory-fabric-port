@@ -1,5 +1,6 @@
 package marcos.mysticcreationsteam.totemfactory.neoforge;
 
+import marcos.mysticcreationsteam.totemfactory.init.neoforge.TfArmorMaterialsImpl;
 import marcos.mysticcreationsteam.totemfactory.init.neoforge.TfBlocksImpl;
 import marcos.mysticcreationsteam.totemfactory.init.neoforge.TfItemsImpl;
 import marcos.mysticcreationsteam.totemfactory.init.neoforge.TfTabsImpl;
@@ -13,6 +14,7 @@ public final class TotemFactoryNeoForge {
     public TotemFactoryNeoForge(IEventBus modBus) {
 
         TotemFactory.load();
+        TfArmorMaterialsImpl.REGISTER.register(modBus);
         TotemFactory.REGISTRATE.registerEventListeners(modBus);
         TfBlocksImpl.REGISTER.register(modBus);
         TfItemsImpl.REGISTER.register(modBus);

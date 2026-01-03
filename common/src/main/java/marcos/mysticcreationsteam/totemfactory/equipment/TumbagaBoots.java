@@ -1,10 +1,11 @@
 package marcos.mysticcreationsteam.totemfactory.equipment;
 
+import marcos.mysticcreationsteam.totemfactory.init.TfArmorMaterials;
 import net.minecraft.world.item.ArmorItem;
 
 public class TumbagaBoots extends ArmorItem {
     public TumbagaBoots() {
-        super(TumbagaArmorMaterial.INSTANCE, Type.BOOTS, new Properties().stacksTo(1));
+        super(TfArmorMaterials.TUMBAGA, Type.BOOTS, new Properties().stacksTo(1).durability(Type.BOOTS.getDurability(TfArmorMaterials.TUMBAGA_DURABILITY)));
     }
 }
 

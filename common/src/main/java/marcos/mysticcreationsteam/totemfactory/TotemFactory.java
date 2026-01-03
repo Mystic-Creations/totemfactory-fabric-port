@@ -1,6 +1,7 @@
 package marcos.mysticcreationsteam.totemfactory;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
+import marcos.mysticcreationsteam.totemfactory.init.TfArmorMaterials;
 import marcos.mysticcreationsteam.totemfactory.init.TfBlocks;
 import marcos.mysticcreationsteam.totemfactory.init.TfItems;
 import net.minecraft.resources.ResourceLocation;
@@ -16,9 +17,10 @@ public final class TotemFactory {
     public static void load() {
         TfBlocks.load();
         TfItems.load();
+        TfArmorMaterials.load();
     }
 
     public static ResourceLocation asResource(String path) {
-        return ResourceLocation.parse(MODID+":"+path);
+        return ResourceLocation.fromNamespaceAndPath(MODID, path);
     }
 }

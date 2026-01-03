@@ -34,6 +34,11 @@ dependencies {
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionNeoForge')
+
+    modImplementation "com.tterrag.registrate:Registrate:$rootProject.registrate"
+    modImplementation("com.simibubi.create:create-1.21.1:$rootProject.create_forge")
+    modImplementation("net.createmod.ponder:Ponder-NeoForge-1.21.1:$rootProject.ponder")
+    modImplementation "dev.engine-room.flywheel:flywheel-neoforge-1.21.1:$rootProject.flywheel"
 }
 
 processResources {
