@@ -19,6 +19,6 @@ public final class TotemFactory {
     }
 
     public static ResourceLocation asResource(String path) {
-        return new ResourceLocation(MODID, path);
+        return ResourceLocation.parse(MODID+":"+path);
     }
 }

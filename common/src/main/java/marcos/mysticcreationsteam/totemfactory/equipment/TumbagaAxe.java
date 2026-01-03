@@ -1,10 +1,13 @@
 package marcos.mysticcreationsteam.totemfactory.equipment;
 
 import marcos.mysticcreationsteam.totemfactory.init.TfItems;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Block;
 
 public class TumbagaAxe extends AxeItem {
     public TumbagaAxe() {
@@ -25,8 +28,8 @@ public class TumbagaAxe extends AxeItem {
             }
 
             @Override
-            public int getLevel() { //TOOL LEVEL
-                return 2;
+            public TagKey<Block> getIncorrectBlocksForDrops() {
+                return BlockTags.INCORRECT_FOR_IRON_TOOL;
             }
 
             @Override
@@ -38,8 +41,6 @@ public class TumbagaAxe extends AxeItem {
             public Ingredient getRepairIngredient() {
                 return Ingredient.of(TfItems.TUMBAGA_ALLOY.get());
             }
-        }, -1.0f, -3.1f, new Properties().stacksTo(1).rarity(Rarity.COMMON));
-        //f - Attack Damage Modifier (final_dmg = base_damage + f), sometimes it's weird and you need to make it -1
-        //g - Attack Speed Modifier (final_speed = g + 4.0)
+        }, new Properties().stacksTo(1).rarity(Rarity.COMMON));
     }
 }

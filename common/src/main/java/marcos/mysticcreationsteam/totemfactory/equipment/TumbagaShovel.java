@@ -1,10 +1,13 @@
 package marcos.mysticcreationsteam.totemfactory.equipment;
 
 import marcos.mysticcreationsteam.totemfactory.init.TfItems;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Block;
 
 public class TumbagaShovel extends ShovelItem {
     public TumbagaShovel() {
@@ -25,8 +28,8 @@ public class TumbagaShovel extends ShovelItem {
             }
 
             @Override
-            public int getLevel() { //TOOL LEVEL
-                return 2;
+            public TagKey<Block> getIncorrectBlocksForDrops() {
+                return BlockTags.INCORRECT_FOR_IRON_TOOL;
             }
 
             @Override
@@ -38,8 +41,6 @@ public class TumbagaShovel extends ShovelItem {
             public Ingredient getRepairIngredient() {
                 return Ingredient.of(TfItems.TUMBAGA_ALLOY.get());
             }
-        }, 0.0f, -3.0f, new Properties().stacksTo(1).rarity(Rarity.COMMON));
-        //f - Attack Damage Modifier (final_dmg = base_damage + f)
-        //g - Attack Speed Modifier (final_speed = g + 4.0)
+        }, new Properties().stacksTo(1).rarity(Rarity.COMMON));
     }
 }
