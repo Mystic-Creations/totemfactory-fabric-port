@@ -10,7 +10,7 @@ import java.util.function.Supplier;
 
 public class TfItemsImpl {
     public static Supplier<Item> register(String registryName, Supplier<Item> itemSupplier) {
-        Item item = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TotemFactory.MODID, registryName), itemSupplier.get());
+        Item item = Registry.register(BuiltInRegistries.ITEM, ResourceLocation.parse(TotemFactory.MODID+":"+registryName), itemSupplier.get());
         return () -> item;
     }
 }

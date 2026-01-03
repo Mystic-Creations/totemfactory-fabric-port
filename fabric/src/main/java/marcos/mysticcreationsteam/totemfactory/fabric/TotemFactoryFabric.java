@@ -10,7 +10,6 @@ public class TotemFactoryFabric implements ModInitializer {
 		TotemFactory.LOGGER.info("Initializing Create: Totem Factory...");
         TotemFactory.load();
         TfTabsImpl.load();
-        TotemFactory.REGISTRATE.register();
-        //HAS TO BE THIS LOADING ORDER!!
+        TotemFactory.REGISTRATE.registerEventListeners();
 	}
 }
