@@ -8,9 +8,9 @@ dependencies {
         exclude group: "net.fabricmc.fabric-api"
     }
     //modImplementation("com.simibubi.create:create-fabric:$rootProject.create_fabric") {
-    modImplementation("com.simibubi.create:create-fucked-up-1.21.1:$rootProject.create_fabric") //{
-    //    exclude group: "net.fabricmc.fabric-api"
-    //}
+    modImplementation("com.simibubi.create:create-fucked-up-1.21.1:$rootProject.create_fabric")  {
+        exclude(group: "com.tterrag.registrate_fabric") // stop trying to import the local one that shouldn't even be used
+    }
 
     // We depend on Fabric Loader here to use the Fabric @Environment annotations,
     // which get remapped to the correct annotations on each platform.
