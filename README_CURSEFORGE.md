@@ -29,7 +29,7 @@ The industrial revolution has come to Minecraft, and with it, new knowledge and 
     <p>
         A similar process follows the creation of the totem's body.
         You simply saw and press a tumbaga alloy, and instead of potions,
-        you deploy a end crystal to give the totem regenerative powers 
+        you deploy a ghast tear to give the totem regenerative powers 
         and then deploy a tumbaga alloy to seal it up.
     </p>
     <img src="https://cdn.modrinth.com/data/cached_images/b7f04ba7a17ebd159ad8a5d328dc4060da5b9540.png" style="float:left; margin-right:15px; width:50px;">
@@ -49,9 +49,58 @@ The industrial revolution has come to Minecraft, and with it, new knowledge and 
 
 <hr>
 
-### Tumbaga Alloy
--- TODO: Describe it --
+<h3>
+  What is Tumbaga?<br>
+  <span style="font-size:smaller; color:#777;">Open spoilers to learn about it.</span>
+</h3>
+
+<div class="spoiler">
+  <div class="spoiler-title">
+    <img src="https://cdn.modrinth.com/data/cached_images/3c94d5f3d4983f0360b8683ca41cadea85a58021_0.webp"
+         width="24" height="24"
+         style="vertical-align: middle; margin-right: 6px;">
+    <strong>Tumbaga Alloy</strong>
+  </div>
+  <div class="spoiler-content">
+    <p>
+      Tumbaga is an ancient alloy of gold and copper from around 400BCE, first used to mainly make jewelry but also sometimes things such as totems.
+    </p>
+    <p>
+      And now it's being brought back to use, to merge immortality with engineering.
+    </p>
+  </div>
+</div>
+
+<div class="spoiler">
+  <div class="spoiler-title">
+    <img src="https://cdn.modrinth.com/data/cached_images/98264eecb617fdf151b074b5bf7e1cecf7f15bf4_0.webp"
+         width="24" height="24"
+         style="vertical-align: middle; margin-right: 6px;">
+    <strong>Tumbaga Armor & Tools</strong>
+  </div>
+  <div class="spoiler-content">
+    <p>
+      Armor and tools made of tumbaga alloy have a unique property of being liked by Piglins just like gold itself, has the same mining speed as gold and just almost being the durability of iron.
+    </p>
+  </div>
+</div>
+
+<div class="spoiler">
+  <div class="spoiler-title">
+    <img src="https://cdn.modrinth.com/data/cached_images/dee0233f1e76dfa3e276ece6eef3ada667393f48_0.webp"
+         width="24" height="24"
+         style="vertical-align: middle; margin-right: 6px;">
+    <strong>Tumbaga Casing</strong>
+  </div>
+  <div class="spoiler-content">
+    <p>
+      It's just a decorational block made of bamboo and tumbaga alloy. Not much to it right now other than looking pretty nice.
+    </p>
+  </div>
+</div>
 
 <hr>
 
-Having issues, need to report a bug, want to suggest a feature or just chat? Join the [Discord server](https://discord.gg/jWqsA8EPeC)!
+Having issues, need to report a bug, want to suggest a feature or just chat? Join the Discord server(s)!
+- [Marcos Joestar's Discord](https://discord.gg/jWqsA8EPeC)
+- [Mystic Creations Team's Discord](https://discord.gg/7D7CpcvgcA)
