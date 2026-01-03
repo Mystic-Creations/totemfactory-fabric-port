@@ -29,7 +29,7 @@ The industrial revolution has come to Minecraft, and with it, new knowledge and 
     <p>
         A similar process follows the creation of the totem's body.
         You simply saw and press a tumbaga alloy, and instead of potions,
-        you deploy a end crystal to give the totem regenerative powers 
+        you deploy a ghast tear to give the totem regenerative powers 
         and then deploy a tumbaga alloy to seal it up.
     </p>
     <img src="https://cdn.modrinth.com/data/cached_images/b7f04ba7a17ebd159ad8a5d328dc4060da5b9540.png" style="float:left; margin-right:15px; width:50px;">
@@ -49,8 +49,18 @@ The industrial revolution has come to Minecraft, and with it, new knowledge and 
 
 <hr>
 
-### Tumbaga Alloy
--- TODO: Describe it --
+<details>
+<summary>Tumbaga Alloy</summary>
+<p>
+Tumbaga Alloy is a core material used for the creation of Totems of Undying. It is produced by mixing gold and copper in a 3:1 ratio using a heated mixer and can be used to craft new tools, weapons, armor pieces and a brand-new casing.
+</p>
+<img alt="image of heating mixer with gold and copper">
+<p>
+This alloy gives the unique properties of gold, such as giving the wearer piglin neutrality, while also having a higher durability thanks to the copper content.
+</p>
+<img alt="image of tools, armor, weapons and casing">
+
+</details>
 
 <hr>
 
