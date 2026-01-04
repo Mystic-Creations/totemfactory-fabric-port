@@ -1,0 +1,6 @@
+// 1.20.1	2026-01-04T18:03:10.0595482	totemfactory's sequenced assembly recipes
+b7b8627126a1bfc228fc897da886adcb28849941 data/totemfactory/recipes/sequenced_assembly/totem/totem_body.json
+f16503473d5572b86503a2739c0fba74db98a36b data/totemfactory/recipes/sequenced_assembly/totem/totem_body_casing.json
+882133612b2e4c58b7bff6ae63ca77915a4dcd7f data/totemfactory/recipes/sequenced_assembly/totem/totem_head.json
+df3988357a1363cb586007a1619dd8aedcc65534 data/totemfactory/recipes/sequenced_assembly/totem/totem_head_casing.json
+5489ae62b5ce52975e8433e6c7610bbd2a998eff data/totemfactory/recipes/sequenced_assembly/totem/totem_of_undying_deploy.json

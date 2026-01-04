@@ -11,6 +11,8 @@ dependencies {
         exclude group: "net.fabricmc.fabric-api"
     }
 
+    modCompileOnly(fabricApi.module("fabric-recipe-api-v1", rootProject.fabric_api_version)) // Only for the sake of compiling - not to be used for anything else!
+
     // We depend on Fabric Loader here to use the Fabric @Environment annotations,
     // which get remapped to the correct annotations on each platform.
     // Do NOT use other classes from Fabric Loader.

@@ -7,6 +7,22 @@ architectury {
     fabric()
 }
 
+fabricApi {
+    configureDataGeneration()
+}
+
+loom {
+    runs {
+        datagen {
+            server()
+            vmArg("-Dfabric-api.datagen")
+            vmArg("-Dfabric-api.datagen.output-dir=${file("src/main/generated")}")
+            vmArg("-Dfabric-api.datagen.modid=totemfactory")
+            vmArg("-Dporting_lib.datagen.existing_resources=${file("src/main/resources")}")
+        }
+    }
+}
+
 configurations {
     common {
         canBeResolved = true
@@ -27,7 +43,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
     modImplementation "net.fabricmc.fabric-api:fabric-api:$rootProject.fabric_api_version"
     modImplementation "com.tterrag.registrate_fabric:Registrate:$rootProject.registrate_refabricated"
-    modCompileOnly "com.simibubi.create:create-fabric:$rootProject.create_fabric" // have the mod in your mods folder instead - Arch Loom isn't remapping correctly
+    modImplementation "com.simibubi.create:create-fabric:$rootProject.create_fabric" // have the mod in your mods folder instead - Arch Loom isn't remapping correctly
     modImplementation "net.createmod.ponder:Ponder-Fabric-1.20.1:$rootProject.ponder"
     modImplementation "dev.engine-room.flywheel:flywheel-fabric-1.20.1:$rootProject.flywheel"
 

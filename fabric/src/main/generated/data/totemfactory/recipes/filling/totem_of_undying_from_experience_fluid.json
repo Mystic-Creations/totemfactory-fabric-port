@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "totemfactory:inactive_totem"
+    },
+    {
+      "amount": 135,
+      "fluidTag": "totemfactory:experience_fluid"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ]
+}

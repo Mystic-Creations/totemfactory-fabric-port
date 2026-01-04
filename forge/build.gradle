@@ -8,6 +8,25 @@ loom {
     }
 }
 
+def generatedResources = file("src/generated/resources")
+
+sourceSets {
+    main {
+        resources.srcDir generatedResources
+    }
+}
+
+loom {
+    runs {
+        data {
+            data()
+            programArgs "--all", "--mod", "totemfactory"
+            programArgs "--output", generatedResources.absolutePath
+            programArgs "--existing", file("src/main/resources").absolutePath
+        }
+    }
+}
+
 architectury {
     platformSetupLoomIde()
     forge()

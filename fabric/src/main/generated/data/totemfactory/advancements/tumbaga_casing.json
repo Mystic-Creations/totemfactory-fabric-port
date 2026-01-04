@@ -1,0 +1,30 @@
+{
+  "parent": "totemfactory:tumbaga_alloy",
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#D1A75D",
+      "translate": "advancement.totemfactory.tumbaga_casing.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "totemfactory:tumbaga_casing"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.totemfactory.tumbaga_casing.title"
+    }
+  },
+  "requirements": [
+    [
+      "crafted"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
