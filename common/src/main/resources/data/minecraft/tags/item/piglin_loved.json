@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:totem_of_undying",
+    "totemfactory:inactive_totem",
+    "totemfactory:tumbaga_alloy",
+    "totemfactory:tumbaga_helmet",
+    "totemfactory:tumbaga_chestplate",
+    "totemfactory:tumbaga_leggings",
+    "totemfactory:tumbaga_boots",
+    "totemfactory:tumbaga_sword",
+    "totemfactory:tumbaga_axe",
+    "totemfactory:tumbaga_pickaxe",
+    "totemfactory:tumbaga_shovel",
+    "totemfactory:tumbaga_hoe"
+  ]
+}
