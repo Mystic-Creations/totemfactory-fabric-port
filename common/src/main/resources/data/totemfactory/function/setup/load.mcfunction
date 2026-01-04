@@ -1,0 +1,5 @@
+scoreboard objectives add totems_in_inv_check dummy
+scoreboard objectives add inactive_totems_in_inv_check dummy
+
+scoreboard objectives add totems_in_inv dummy
+scoreboard objectives add inactive_totems_in_inv dummy

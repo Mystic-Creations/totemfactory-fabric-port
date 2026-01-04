@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "advancement.totemfactory.totem_full_inventory.title"
+    },
+    "description": {
+      "translate": "advancement.totemfactory.totem_full_inventory.descr",
+      "color": "#d1a75d"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "totemfactory:inactive_totem_full_inventory",
+  "criteria": {
+    "totem_inventory": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 32
+  }
+}

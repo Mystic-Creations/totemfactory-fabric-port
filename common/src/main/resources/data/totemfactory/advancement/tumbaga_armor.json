@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "totemfactory:tumbaga_chestplate"
+    },
+    "title": {
+      "translate": "advancement.totemfactory.tumbaga_armor.title"
+    },
+    "description": {
+      "translate": "advancement.totemfactory.tumbaga_armor.descr",
+      "color": "#d1a75d"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "totemfactory:tumbaga_alloy",
+  "criteria": {
+    "tumbaga_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "totemfactory:tumbaga_helmet"
+            ]
+          },
+          {
+            "items": [
+              "totemfactory:tumbaga_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "totemfactory:tumbaga_leggings"
+            ]
+          },
+          {
+            "items": [
+              "totemfactory:tumbaga_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "tumbaga_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 12
+  }
+}

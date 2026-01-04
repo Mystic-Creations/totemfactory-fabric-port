@@ -2,21 +2,6 @@ plugins {
     id 'com.gradleup.shadow'
 }
 
-fabricApi {
-    configureDataGeneration()
-}
-
-loom {
-    runs {
-        datagen {
-            server()
-            vmArg("-Dfabric-api.datagen")
-            vmArg("-Dfabric-api.datagen.output-dir=${file("src/main/generated")}")
-            vmArg("-Dfabric-api.datagen.modid=totemfactory")
-        }
-    }
-}
-
 architectury {
     platformSetupLoomIde()
     fabric()
@@ -44,7 +29,7 @@ dependencies {
     modImplementation "com.tterrag.registrate_fabric:Registrate-Fabric:$rootProject.registrate_refabricated"
     //modCompileOnly "com.simibubi.create:create-fabric:$rootProject.create_fabric"
     //   DEV NOTE: have Create Fabric in your mods folder instead - Arch Loom isn't remapping correctly
-    modImplementation("com.simibubi.create:create-fucked-up-1.21.1:$rootProject.create_fabric") {
+    modCompileOnly("com.simibubi.create:create-fucked-up-1.21.1:$rootProject.create_fabric") {
         exclude(group: "com.tterrag.registrate_fabric")
         // stop trying to import the local one that shouldn't even be used
     }

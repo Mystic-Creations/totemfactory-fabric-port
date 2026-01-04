@@ -13,7 +13,6 @@ dependencies {
         exclude(group: "com.tterrag.registrate_fabric")
         // stop trying to import the local one that shouldn't even be used
     }
-    modCompileOnly(fabricApi.module("fabric-recipe-api-v1", rootProject.fabric_api_version)) // Only for the sake of compiling - not to be used for anything else!
 
     // We depend on Fabric Loader here to use the Fabric @Environment annotations,
     // which get remapped to the correct annotations on each platform.
