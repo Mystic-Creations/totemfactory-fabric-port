@@ -1,7 +1,6 @@
 package marcos.mysticcreationsteam.totemfactory.forge;
 
 import marcos.mysticcreationsteam.totemfactory.TotemFactory;
-import marcos.mysticcreationsteam.totemfactory.forge.datagen.TfDataGeneratorForge;
 import marcos.mysticcreationsteam.totemfactory.init.forge.TfBlocksImpl;
 import marcos.mysticcreationsteam.totemfactory.init.forge.TfItemsImpl;
 import marcos.mysticcreationsteam.totemfactory.init.forge.TfTabsImpl;
@@ -19,7 +18,5 @@ public class TotemFactoryForge {
         TfBlocksImpl.REGISTER.register(modBus);
         TfItemsImpl.REGISTER.register(modBus);
         TfTabsImpl.REGISTER.register(modBus);
-
-        modBus.addListener(TfDataGeneratorForge::gatherData);
     }
 }

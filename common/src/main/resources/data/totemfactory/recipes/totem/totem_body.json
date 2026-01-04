@@ -1,0 +1,49 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "totemfactory:totem_body_casing"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "totemfactory:totem_body"
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "totemfactory:incomplete_totem_body_casing"
+          },
+          {
+            "item" : "minecraft:ghast_tear"
+          }
+        ],
+        "results": [
+          {
+            "item": "totemfactory:incomplete_totem_body"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "totemfactory:incomplete_totem_body"
+          },
+          {
+            "item" : "totemfactory:tumbaga_alloy"
+          }
+        ],
+        "results": [
+          {
+            "item": "totemfactory:totem_body"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "totemfactory:incomplete_totem_body"
+    }
+  }

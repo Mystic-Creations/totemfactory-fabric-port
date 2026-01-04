@@ -31,7 +31,7 @@
     <h3 style="margin-bottom: 0;">Wider Loader & Version Support</h3>
     <p style="margin-top: 4px;"><strong>Now officially on:</strong></p>
     <ul style="margin-top: -15px;">
-      <li><strong>Fabric, Forge & NeoForge</strong> <code>1.20.1</code></li>
+      <li><strong>Fabric, Forge & NeoForge</strong><code>1.20.1</code></li>
       <li><strong>Fabric & NeoForge</strong> <code>1.21.1</code></li>
       <p style="margin-top: -8px; color:#777;"><small>(We're waiting for Create 6.0 for Fabric 1.21.1 before releasing C:TF 1.21.1 Fabric)</small></p>
     </ul>

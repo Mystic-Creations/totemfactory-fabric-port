@@ -1,0 +1,70 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "totemfactory:totem_head_casing"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "totemfactory:totem_head"
+      }
+    ],
+    "sequence": [
+  {
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "totemfactory:incomplete_totem_head"
+    },
+    {
+      "amount": 250,
+      "fluid": "create:potion",
+      "nbt": "{Potion:\"minecraft:fire_resistance\"}"
+    }
+  ],
+  "results": [
+    {
+      "item": "totemfactory:incomplete_totem_head"
+    }
+  ]
+      },
+      {
+        "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "totemfactory:incomplete_totem_head"
+    },
+    {
+      "amount": 250,
+      "fluid":  "create:potion",
+      "nbt": "{Potion:\"minecraft:regeneration\"}"
+    }
+  ],
+  "results": [
+    {
+      "item": "totemfactory:incomplete_totem_head"
+    }
+  ]
+      },
+
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "totemfactory:incomplete_totem_head"
+          },
+          {
+            "item" : "totemfactory:tumbaga_alloy"
+          }
+        ],
+        "results": [
+          {
+            "item": "totemfactory:totem_head"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "totemfactory:incomplete_totem_head"
+    }
+  }

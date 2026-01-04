@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "totemfactory:tumbaga_block"
+    }
+  ],
+  "result": {
+    "item": "totemfactory:tumbaga_alloy",
+    "count": 9
+  }
+}
