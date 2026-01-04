@@ -1,0 +1,51 @@
+{
+  "parent": "create:burner",
+  "criteria": {
+    "tumbaga_alloy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "totemfactory:tumbaga_alloy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#D1A75D",
+      "translate": "advancement.totemfactory.tumbaga_alloy.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "totemfactory:tumbaga_alloy"
+    },
+    "title": {
+      "translate": "advancement.totemfactory.tumbaga_alloy.title"
+    }
+  },
+  "requirements": [
+    [
+      "tumbaga_alloy"
+    ]
+  ],
+  "rewards": {
+    "experience": 4,
+    "recipes": [
+      "totemfactory:filling/totem_of_undying_from_experience",
+      "totemfactory:haunting/ghast_tear",
+      "totemfactory:item_application/tumbaga_alloy/casing/tumbaga_casing",
+      "totemfactory:mechanical_crafting/inactive_totem",
+      "totemfactory:mixing/tumbaga_alloy/tumbaga_alloy_from_mixing",
+      "totemfactory:pressing/tumbaga_alloy/tumbaga_sheet",
+      "totemfactory:sequenced_assembly/totem/totem_body",
+      "totemfactory:sequenced_assembly/totem/totem_body_casing",
+      "totemfactory:sequenced_assembly/totem/totem_head",
+      "totemfactory:sequenced_assembly/totem/totem_head_casing",
+      "totemfactory:sequenced_assembly/totem/totem_of_undying_deploy"
+    ]
+  },
+  "sends_telemetry_event": true
+}

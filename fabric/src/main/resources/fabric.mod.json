@@ -24,6 +24,9 @@
   "entrypoints": {
     "main": [
       "marcos.mysticcreationsteam.totemfactory.fabric.TotemFactoryFabric"
+    ],
+    "fabric-datagen": [
+      "marcos.mysticcreationsteam.totemfactory.fabric.datagen.TfDataGeneratorFabric"
     ]
   },
   "depends": {

@@ -1,0 +1,43 @@
+{
+  "parent": "totemfactory:inactive_totem_full_inventory",
+  "criteria": {
+    "totem_inventory": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:0b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:1b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:2b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:3b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:4b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:5b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:6b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:7b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:8b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:9b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:10b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:11b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:12b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:13b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:14b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:15b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:16b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:17b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:18b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:19b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:20b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:21b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:22b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:23b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:24b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:25b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:26b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:27b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:28b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:29b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:30b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:31b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:32b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:33b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:34b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:35b,count:1,id:\"minecraft:totem_of_undying\"},{Slot:-106b,count:1,id:\"minecraft:totem_of_undying\"}]}"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "color": "#D1A75D",
+      "translate": "advancement.totemfactory.totem_full_inventory.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "advancement.totemfactory.totem_full_inventory.title"
+    }
+  },
+  "requirements": [
+    [
+      "totem_inventory"
+    ]
+  ],
+  "rewards": {
+    "experience": 32
+  },
+  "sends_telemetry_event": true
+}

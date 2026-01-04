@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "totemfactory:tumbaga_alloy"
+    }
+  ],
+  "results": [
+    {
+      "id": "totemfactory:tumbaga_sheet"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "totemfactory:totem_head_casing"
+  },
+  "results": [
+    {
+      "id": "totemfactory:totem_head"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "totemfactory:incomplete_totem_head"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "create:flowing_potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "totemfactory:incomplete_totem_head"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "totemfactory:incomplete_totem_head"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "create:flowing_potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "totemfactory:incomplete_totem_head"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "totemfactory:incomplete_totem_head"
+        },
+        {
+          "item": "totemfactory:tumbaga_alloy"
+        }
+      ],
+      "results": [
+        {
+          "id": "totemfactory:totem_head"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "totemfactory:incomplete_totem_head"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "totemfactory:tumbaga_alloy"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "##",
+    "/ ",
+    "/ "
+  ],
+  "result": {
+    "count": 1,
+    "id": "totemfactory:tumbaga_hoe"
+  }
+}

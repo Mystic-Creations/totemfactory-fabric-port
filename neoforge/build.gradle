@@ -7,6 +7,25 @@ architectury {
     neoForge()
 }
 
+def generatedResources = file("src/generated")
+
+sourceSets {
+    main {
+        resources.srcDir generatedResources
+    }
+}
+
+loom {
+    runs {
+        data {
+            data()
+            programArgs "--all", "--mod", "totemfactory"
+            programArgs "--output", generatedResources.absolutePath
+            programArgs "--existing", file("src/main/resources").absolutePath
+        }
+    }
+}
+
 configurations {
     common {
         canBeResolved = true

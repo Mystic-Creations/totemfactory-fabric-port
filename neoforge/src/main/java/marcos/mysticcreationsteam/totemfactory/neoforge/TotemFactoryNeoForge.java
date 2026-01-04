@@ -4,6 +4,7 @@ import marcos.mysticcreationsteam.totemfactory.init.neoforge.TfArmorMaterialsImp
 import marcos.mysticcreationsteam.totemfactory.init.neoforge.TfBlocksImpl;
 import marcos.mysticcreationsteam.totemfactory.init.neoforge.TfItemsImpl;
 import marcos.mysticcreationsteam.totemfactory.init.neoforge.TfTabsImpl;
+import marcos.mysticcreationsteam.totemfactory.neoforge.datagen.TfDataGeneratorNeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 
@@ -19,5 +20,7 @@ public final class TotemFactoryNeoForge {
         TfBlocksImpl.REGISTER.register(modBus);
         TfItemsImpl.REGISTER.register(modBus);
         TfTabsImpl.REGISTER.register(modBus);
+
+        modBus.addListener(TfDataGeneratorNeoForge::gatherData);
     }
 }

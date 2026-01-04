@@ -1,0 +1,28 @@
+{
+  "parent": "totemfactory:first_totem",
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "color": "#D1A75D",
+      "translate": "advancement.totemfactory.thousand_totems.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "create:experience_block"
+    },
+    "title": {
+      "translate": "advancement.totemfactory.thousand_totems.title"
+    }
+  },
+  "requirements": [
+    [
+      "crafted"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
