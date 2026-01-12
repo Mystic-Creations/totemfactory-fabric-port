@@ -12,8 +12,8 @@
 <hr>
 
 # Description
-The industrial revolution has come to Minecraft, and with it, new knowledge and discoveries both in the field of science and magic. This mod adds a multistep complex recipe for the Totem of Undying but also recipes for totems from other mods, allowing you to automate any totem you wish.
-
+The industrial revolution has come to Minecraft, and with it, new knowledge and discoveries both in the field of science and magic.
+This mod adds a multistep complex recipe for the Totem of Undying using Create and optionally Create: Enchantmnet Industry.
 <hr>
 
 ## Totem Creation
