@@ -29,6 +29,12 @@ allprojects {
     }
 }
 
+def isDevBuild = (findProperty("dev_builds")?.toString()?.toBoolean() ?: false)
+
+def gitCommitCount = providers.exec {
+    commandLine "git", "rev-list", "--count", "HEAD"
+}.standardOutput.asText.map { it.trim() }
+
 subprojects {
     apply plugin: 'dev.architectury.loom'
     apply plugin: 'architectury-plugin'
@@ -68,7 +74,13 @@ subprojects {
     }
 
     if (detectedPlatform) {
-        project.version = "${rootProject.mod_version}+mc${rootProject.minecraft_version}-${detectedPlatform}"
+        def baseVersion = "${rootProject.mod_version}+mc${rootProject.minecraft_version}-${detectedPlatform}"
+
+        if (isDevBuild) {
+            project.version = baseVersion + "-build.${gitCommitCount.get()}"
+        } else {
+            project.version = baseVersion
+        }
     } else {
         project.version = rootProject.mod_version
     }
