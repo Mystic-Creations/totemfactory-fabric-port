@@ -105,13 +105,14 @@
     <ul style="margin-top: 4px;">
       <li>English US</li>
       <li>English UK/GB</li>
-      <li>Spanish ES/AR/CL/MX/UY/VE</li>
-      <li>Polish</li>
       <li>Russian</li>
+      <li>German</li>
+      <li>Polish</li>
       <li>Dutch</li>
+      <li>Portuguese BR</li>
+      <li>Spanish ES/AR/CL/MX/UY/VE</li>
       <li>French</li>
       <li>Italian</li>
-      <li>Portuguese BR</li>
     </ul>
   </div>
     <hr>

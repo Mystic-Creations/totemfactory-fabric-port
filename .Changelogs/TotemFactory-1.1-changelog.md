@@ -65,9 +65,9 @@ There's whole 7 new advancements, some funny references, some pretty hard and so
 
 - Replaced all Brass to Tumbaga Alloy in Totem parts' recipes
 - Changed the End Crystal to a Ghast Tear in Totem Body recipe
-  -Still doing that healing factor, but more convenient
+  - Still doing that healing factor, but more convenient
 - Added Ghast Tear recipe
-  -Bulk haunting snowballs
+  - Bulk haunting snowballs
 
 <hr>
 
@@ -75,13 +75,14 @@ There's whole 7 new advancements, some funny references, some pretty hard and so
 
 - English US
 - English UK/GB
-- Spanish ES/AR/CL/MX/UY/VE
-- Polish
 - Russian
+- German
+- Polish
 - Dutch
+- Portuguese BR
+- Spanish ES/AR/CL/MX/UY/VE
 - French
 - Italian
-- Portuguese BR
 
 <hr>
 
