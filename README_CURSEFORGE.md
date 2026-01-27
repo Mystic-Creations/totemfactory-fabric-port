@@ -3,11 +3,13 @@
 <div style="text-align:center;">
   <strong>"Engineering laughs in the face of death."</strong>
 </div>
-<div style="text-align:center;">
-  <span style="font-size:smaller; color:#777;">
-    Updated in collaboration with the Mystic Creations Team
-  </span>
-</div>
+
+<div style="text-align:center">
+<span style="font-size:smaller;color:#777">jargames99 - Original idea and co-creator</span>
+
+<span style="font-size:smaller;color:#777">Marcos Joestar - Co-creator</span>
+
+<span style="font-size:smaller;color:#777">Mystic Creations Team - Updates and maintenance</span>
 
 <hr>
 
