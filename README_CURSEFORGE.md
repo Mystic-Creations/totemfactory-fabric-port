@@ -5,8 +5,8 @@
 </div>
 
 <div style="text-align:center">
-    <span style="font-size:smaller;color:#777">jargames99 - Co-Creator, Original Idea</span><br>
-    <span style="font-size:smaller;color:#777">Marcos Joestar - Co-Creator, Original Programming and Art</span><br>
+    <span style="font-size:smaller;color:#777">jargames99 - Co-Creator, Og. Idea & Programming</span><br>
+    <span style="font-size:smaller;color:#777">Marcos Joestar - Co-Creator, Og. Art</span><br>
     <span style="font-size:smaller;color:#777">Mystic Creations Team - Maintenance and Updates</span>
 </div>
 <hr>
@@ -101,12 +101,11 @@ This mod adds a multistep complex recipe for the Totem of Undying using Create a
 
 <hr>
 
-Want to check out the code or contribute? Check out our GitHub!
-- [Current Totem Factory Github](https://github.com/Mystic-Creations/Totem-Factory)
-- [Legacy Totem Factory Github](https://github.com/jargames99/TotemFactory_Legacy)
-
-Having issues, need to report a bug, want to suggest a feature or just chat? Join the Discord server(s)!
+Having issues, need to report a bug, want to suggest something or just chat? Join the Discord server(s)!
 - [Marcos Joestar's Discord](https://discord.gg/jWqsA8EPeC)
-- [Mystic Creations Team's Discord](https://discord.gg/7D7CpcvgcA)
-
+- [Mystic Creations Team's Discord](https://discord.gg/7D7CpcvgcA)<br>
 <span style="font-size:smaller">For bug reporting we recommend to report them to Mystic Creations Team</span>
+
+Wanna see how the mod's code works or want to contribute? Check out the GitHub!
+- [Totem Factory](https://github.com/Mystic-Creations/Totem-Factory)
+- [Totem Factory (Legacy)](https://github.com/jargames99/TotemFactory_Legacy)
