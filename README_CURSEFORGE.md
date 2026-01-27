@@ -5,12 +5,10 @@
 </div>
 
 <div style="text-align:center">
-<span style="font-size:smaller;color:#777">jargames99 - Original idea and co-creator</span>
-
-<span style="font-size:smaller;color:#777">Marcos Joestar - Co-creator</span>
-
-<span style="font-size:smaller;color:#777">Mystic Creations Team - Updates and maintenance</span>
-
+    <span style="font-size:smaller;color:#777">jargames99 - Co-Creator, Original Idea</span><br>
+    <span style="font-size:smaller;color:#777">Marcos Joestar - Co-Creator, Original Programming and Art</span><br>
+    <span style="font-size:smaller;color:#777">Mystic Creations Team - Maintenance and Updates</span>
+</div>
 <hr>
 
 # Description

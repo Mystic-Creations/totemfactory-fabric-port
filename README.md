@@ -2,12 +2,9 @@
 
 <pre><center>"Engineering laughs in the face of death."</center></pre>
 <center>
-
-<small style="color:#777;">jargames99 - Original idea and co-creator</small>
-
-<small style="color:#777;">Marcos Joestar - Co-creator</small>
-
-<small style="color:#777;">Mystic Creations Team - Updates and maintenance</small>
+    <small style="color:#777;">jargames99 - Co-Creator, Original Idea</small><br>
+    <small style="color:#777;">Marcos Joestar - Co-Creator, Original Programming and Art</small><br>
+    <small style="color:#777;">Mystic Creations Team - Maintenance and Updates</small>
 </center>
 
 <hr>
