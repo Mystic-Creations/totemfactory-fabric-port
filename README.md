@@ -1,9 +1,9 @@
-![Titlecard](https://cdn.modrinth.com/data/cached_images/7fe40d6ff301d3d591f2ad221849a5c09b9b10ce.png)
+<img width="658" height="278" alt="image" src="https://github.com/user-attachments/assets/373aceb7-537e-4702-a7c0-7f1ef4dc4ca7" />![Titlecard](https://cdn.modrinth.com/data/cached_images/7fe40d6ff301d3d591f2ad221849a5c09b9b10ce.png)
 
 <pre><center>"Engineering laughs in the face of death."</center></pre>
 <center>
-    <small style="color:#777;">jargames99 - Co-Creator, Original Idea</small><br>
-    <small style="color:#777;">Marcos Joestar - Co-Creator, Original Programming and Art</small><br>
+    <small style="color:#777;">jargames99 - Creator, Original Programming and Artist </small><br>
+    <small style="color:#777;">Marcos Joestar - Co-Creator, Original Co-Artist</small><br>
     <small style="color:#777;">Mystic Creations Team - Maintenance and Updates</small>
 </center>
 
