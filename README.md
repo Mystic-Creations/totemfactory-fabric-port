@@ -90,6 +90,10 @@ It's just a decorational block made of bamboo and tumbaga alloy. Not much to it 
 
 <hr>
 
+Want to check out the code or contribute? Check out our GitHub!
+- [Current Totem Factory Github](https://github.com/Mystic-Creations/Totem-Factory)
+- [Legacy Totem Factory Github](https://github.com/jargames99/TotemFactory_Legacy)
+
 Having issues, need to report a bug, want to suggest a feature or just chat? Join the Discord server(s)!
 - [Marcos Joestar's Discord](https://discord.gg/jWqsA8EPeC)
 - [Mystic Creations Team's Discord](https://discord.gg/7D7CpcvgcA)
