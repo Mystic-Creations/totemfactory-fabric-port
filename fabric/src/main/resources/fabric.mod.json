@@ -9,13 +9,13 @@
     "jargames99"
   ],
   "contributors": [
-    "Mystic Creations Team (Collaborators)",
+    "Lumynity Studios (Collaborators)",
     "BluSpring (Collab Contributor)"
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/create-totem-factory",
-    "sources": "https://github.com/Mystic-Creations/Totem-Factory",
-    "issues": "https://github.com/Mystic-Creations/Totem-Factory/issues"
+    "sources": "https://github.com/Lumynity-Studios/Totem-Factory",
+    "issues": "https://github.com/Lumynity-Studios/Totem-Factory/issues"
   },
   "license": "MIT",
   "icon": "icon.png",
@@ -23,7 +23,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "marcos.mysticcreationsteam.totemfactory.fabric.TotemFactoryFabric"
+      "marcos.lumynitystudios.totemfactory.fabric.TotemFactoryFabric"
     ]
   },
   "depends": {
