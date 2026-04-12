@@ -12,7 +12,7 @@
 
 Quite a lot that's new actually!
 A pretty big overhaul of the original mod,
-forked from Mystic Creations Team's <code>Create: Totem Factory - Postmortal</code> and expanded in collaboration
+forked from Lumynity Studios's <code>Create: Totem Factory - Postmortal</code> and expanded in collaboration
 with them to bring more content such as new resources, equipment, decorational stuff
 and slightly rethought recipes to make automation a tiny bit more possible
 

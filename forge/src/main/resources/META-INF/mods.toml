@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-issueTrackerURL="https://github.com/Mystic-Creations/Totem-Factory/issues"
+issueTrackerURL="https://github.com/Lumynity-Studios/Totem-Factory/issues"
 license="MIT"
 
 [[mods]]
@@ -13,7 +13,7 @@ authors='''
 
 MarcosJoestar
 jargames99
-Mystic Creations Team (Collaborators)
+Lumynity Studios (Collaborators)
 BluSpring (Collab Contributor)
 '''
 description="The industrial revolution has come to Minecraft, and with it, new knowledge and discoveries both in the field of science and magic."

@@ -4,7 +4,7 @@
 <center>
     <small style="color:#777;">jargames99 - Co-Creator, Og. Idea & Programming</small><br>
     <small style="color:#777;">Marcos Joestar - Co-Creator, Og. Art</small><br>
-    <small style="color:#777;">Mystic Creations Team - Maintenance and Updates</small>
+    <small style="color:#777;">Lumynity Studios - Maintenance and Updates</small>
 </center>
 
 <hr>
@@ -92,9 +92,9 @@ It's just a decorational block made of bamboo and tumbaga alloy. Not much to it 
 
 Having issues, need to report a bug, want to suggest something or just chat? Join the Discord server(s)!
 - [Marcos Joestar's Discord](https://discord.gg/jWqsA8EPeC)
-- [Mystic Creations Team's Discord](https://discord.gg/7D7CpcvgcA)<br>
-  <small>For bug reporting we recommend to report them to Mystic Creations Team</small>
+- [Lumynity Studios's Discord](https://discord.gg/7D7CpcvgcA)<br>
+  <small>For bug reporting we recommend to report them to Lumynity Studios</small>
 
 Wanna see how the mod's code works or want to contribute? Check out the GitHub!
-- [Totem Factory](https://github.com/Mystic-Creations/Totem-Factory)
+- [Totem Factory](https://github.com/Lumynity-Studios/Totem-Factory)
 - [Totem Factory (Legacy)](https://github.com/jargames99/TotemFactory_Legacy)
